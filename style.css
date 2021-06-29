@@ -1,0 +1,147 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+
+
+
+a{
+    text-decoration: none;
+    color:#ffffff;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 30px;
+    position: fixed;
+    background-color: #212121;
+    overflow:hidden;
+    padding-top: 20px;
+    transition:0.9s;
+  }
+  
+
+  .sidenav h2{
+    padding: 10px 8px 6px 8px;
+    text-decoration: none;
+    font-size: 35px;
+    color: #9f8f9f;
+    display: block;
+    transition:0.5s;
+  }
+.sidenav a{
+    padding: 10px 8px 6px 10px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #9f8f9f;
+    display: block;
+    transition:0.5s;
+}
+
+.sidenav a:hover{
+    color:#f6f6f6;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.sidenav:hover{
+    width:160px;
+    transition:0.9s;
+}
+
+
+.docs{
+    margin-left:10px;
+}
+
+.docs .navsec{
+    background-color: #212121;
+}
+
+
+
+.docs .navbar{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #afafaf;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.docs .backnav{
+    background-image: url("background.jpg");
+        margin:10px;
+        padding:50px;
+}
+
+.docs .backnav .topic{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin:0px;
+    text-decoration: solid;
+}
+
+
+.docs .origami{
+    display:inline-flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    padding:40px;
+    gap:35px;
+    background-color:#feffca;
+    border:none;
+    outline:none;
+    transition: 0.9s; 
+}
+
+.docs .origami .figures,.figures2{
+    width:250px;
+    height:350px;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #212121;
+    border-radius: 30px;
+    color: #217321;
+    transition: 0.9s;
+    align-items: center;
+}
+
+.docs .origami .figures li,.figures2 li{
+    padding-left:10px
+}
+
+.docs .origami .figures img{
+    border: 2px solid #000000;
+    width:70%;
+
+    height:150px;
+    border-radius: 100px;
+}
+
+.docs .origami .figures2 img{
+    border:2px solid #000000;
+    width:73%;
+    height: 150px;
+    border-radius: 100px;
+}
+
+.docs .origami .figures img:hover{
+    border:2px solid #2a8796;
+} 
+
+.docs .origami .figures2 img:hover{
+    border:2px solid #ffffff;
+}
+
+.docs .origami .figures:hover, .figures2:hover{
+    box-shadow: 0px 2px 8px 8px #212121;
+    transition: 0.2s;
+}
+
